@@ -1,4 +1,4 @@
-def MakeArrayConsecutive2(statues):
+def makeArrayConsecutive2(statues):
     statues.sort()
     count = 0;
     for i in range(max(statues)-min(statues)-1):
